@@ -1,0 +1,5 @@
+form input{padding:  7.5px; margin-top: 9px; margin-bottom: 10px; width: 60%;}
+form{text-align: center;padding: 50px ; margin-bottom: 10px; margin:auto 500px; background-color: rgb(107, 125, 224); border-radius: 15px;}
+/* form textarea{padding:  7.5px; margin-top: 9px; margin-bottom: 10px; width: 60%;}*/ 
+form select{padding:  7.5px; margin-top: 9px; margin-bottom: 10px; width: 60%;}
+form button{padding:7.5px ; margin-top:9px; margin-bottom: 10px; background-color: rgb(222, 113, 124); width: 60%; color: white; border-radius: 10px;}
