@@ -1,6 +1,7 @@
 <?php 
-require_once('ListeTache.php') ;
-require_once('Tache.php'); 
+require 'class\Autoloader.php' ;
+Autoloader::register();
+
 if(isset($_POST["titre"] , $_POST["descriptions"] , $_POST["date_echeance"] ,  $_POST["status"]) ) {
     $lta = new ListeTache() ;
     $tac = new Tache($_POST["titre"], $_POST["descriptions"], $_POST["date_echeance"] , $_POST["status"]);
